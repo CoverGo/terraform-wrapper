@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/covergo/terraform-exec/tfinstall"
+	"github.com/covergo/terraform-wrapper/tfinstall"
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/go-version"
 )

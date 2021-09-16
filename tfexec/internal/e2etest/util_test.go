@@ -13,8 +13,8 @@ import (
 
 	"github.com/hashicorp/go-version"
 
-	"github.com/covergo/terraform-exec/tfexec"
-	"github.com/covergo/terraform-exec/tfexec/internal/testutil"
+	"github.com/covergo/terraform-wrapper/tfexec"
+	"github.com/covergo/terraform-wrapper/tfexec/internal/testutil"
 )
 
 const testFixtureDir = "testdata"

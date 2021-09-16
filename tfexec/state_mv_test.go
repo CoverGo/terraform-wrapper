@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/covergo/terraform-exec/tfexec/internal/testutil"
+	"github.com/covergo/terraform-wrapper/tfexec/internal/testutil"
 )
 
 func TestStateMvCmd(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/covergo/terraform-exec/tfexec/internal/testutil"
+	"github.com/covergo/terraform-wrapper/tfexec/internal/testutil"
 )
 
 func TestUpgrade013(t *testing.T) {

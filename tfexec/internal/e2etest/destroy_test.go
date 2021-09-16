@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/go-version"
 
-	"github.com/covergo/terraform-exec/tfexec"
+	"github.com/covergo/terraform-wrapper/tfexec"
 )
 
 func TestDestroy(t *testing.T) {

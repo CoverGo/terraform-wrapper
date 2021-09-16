@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/covergo/terraform-exec/internal/version"
+	"github.com/covergo/terraform-wrapper/internal/version"
 )
 
 func TestMergeUserAgent(t *testing.T) {
@@ -37,7 +37,7 @@ func TestMergeUserAgent(t *testing.T) {
 func defaultEnv() []string {
 	return []string{
 		"CHECKPOINT_DISABLE=",
-		"TF_APPEND_USER_AGENT=HashiCorp-terraform-exec/" + version.ModuleVersion(),
+		"TF_APPEND_USER_AGENT=HashiCorp-terraform-wrapper/" + version.ModuleVersion(),
 		"TF_IN_AUTOMATION=1",
 		"TF_LOG_PATH=",
 		"TF_LOG=",

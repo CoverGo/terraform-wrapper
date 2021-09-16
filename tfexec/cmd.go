@@ -11,7 +11,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/covergo/terraform-exec/internal/version"
+	"github.com/covergo/terraform-wrapper/internal/version"
 )
 
 const (
@@ -138,7 +138,7 @@ func (tf *Terraform) buildEnv(mergeEnv map[string]string) []string {
 	ua := mergeUserAgent(
 		os.Getenv(appendUserAgentEnvVar),
 		tf.appendUserAgent,
-		fmt.Sprintf("HashiCorp-terraform-exec/%s", version.ModuleVersion()),
+		fmt.Sprintf("HashiCorp-terraform-wrapper/%s", version.ModuleVersion()),
 	)
 	env[appendUserAgentEnvVar] = ua
 

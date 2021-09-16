@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/covergo/terraform-exec/tfexec/internal/testutil"
+	"github.com/covergo/terraform-wrapper/tfexec/internal/testutil"
 )
 
 func TestWorkspaceNewCmd(t *testing.T) {

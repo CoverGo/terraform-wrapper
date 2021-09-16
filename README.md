@@ -23,8 +23,8 @@ import (
 	"os"
 	"log"
 
-	"github.com/covergo/terraform-exec/tfexec"
-	"github.com/covergo/terraform-exec/tfinstall"
+	"github.com/covergo/terraform-wrapper/tfexec"
+	"github.com/covergo/terraform-wrapper/tfinstall"
 )
 
 func main() {

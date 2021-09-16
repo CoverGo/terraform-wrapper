@@ -14,8 +14,8 @@ import (
 	tfjson "github.com/hashicorp/terraform-json"
 	"github.com/sergi/go-diff/diffmatchpatch"
 
-	"github.com/covergo/terraform-exec/tfexec"
-	"github.com/covergo/terraform-exec/tfexec/internal/testutil"
+	"github.com/covergo/terraform-wrapper/tfexec"
+	"github.com/covergo/terraform-wrapper/tfexec/internal/testutil"
 )
 
 var (

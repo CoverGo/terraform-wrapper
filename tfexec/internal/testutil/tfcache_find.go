@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/covergo/terraform-exec/tfinstall"
+	"github.com/covergo/terraform-wrapper/tfinstall"
 )
 
 func (tf *TFCache) find(t *testing.T, key string, finder func(dir string) tfinstall.ExecPathFinder) string {

@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/covergo/terraform-exec/tfinstall"
-	"github.com/covergo/terraform-exec/tfinstall/gitref"
+	"github.com/covergo/terraform-wrapper/tfinstall"
+	"github.com/covergo/terraform-wrapper/tfinstall/gitref"
 )
 
 const (

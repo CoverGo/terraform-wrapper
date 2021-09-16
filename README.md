@@ -1,7 +1,7 @@
 ## Disclaimer
 
 This code was forked from the original one from Hashicorp to remove dependencies that we believe were not useful.
-Since we heavily develop kubernetes operators, `go-setter` dependencies that are heavily updated caused problem to us.
+Since we develop kubernetes operators, `go-setter` dependencies that are heavily outdated caused a lot of problem to us.
 
 ## Usage
 

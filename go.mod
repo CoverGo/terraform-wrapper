@@ -1,4 +1,4 @@
-module github.com/covergo/terraform-exec
+module github.com/covergo/terraform-wrapper
 
 go 1.17
 

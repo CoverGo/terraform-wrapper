@@ -132,8 +132,6 @@ func downloadWithVerification(ctx context.Context, tfVersion string, installDir 
 	sumsURL := fmt.Sprintf("%s/%s/%s", baseURL, tfVersion, sumsFilename)
 	sumsSigURL := fmt.Sprintf("%s/%s/%s", baseURL, tfVersion, sumsSigFilename)
 
-	fmt.Println(sumsFullpath)
-
 	if err := downloadFile(sumsFullpath, sumsURL); err != nil {
 		return "", fmt.Errorf("error fetching checksums at URL %s: %w", sumsURL, err)
 	}

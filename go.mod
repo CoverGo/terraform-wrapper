@@ -10,7 +10,7 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-version v1.3.0
 	github.com/hashicorp/logutils v1.0.0
-	github.com/hashicorp/terraform-json v0.12.0
+	github.com/hashicorp/terraform-json v0.13.0
 	github.com/mitchellh/cli v1.1.2
 	github.com/sergi/go-diff v1.2.0
 	github.com/stretchr/testify v1.7.0

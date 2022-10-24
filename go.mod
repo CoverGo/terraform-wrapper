@@ -13,7 +13,7 @@ require (
 	github.com/hashicorp/terraform-json v0.12.0
 	github.com/mitchellh/cli v1.1.2
 	github.com/sergi/go-diff v1.2.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/zclconf/go-cty v1.9.1
 	github.com/zclconf/go-cty-debug v0.0.0-20191215020915-b22d67c1ba0b
 	golang.org/x/crypto v0.0.0-20210915214749-c084706c2272
@@ -54,5 +54,5 @@ require (
 	golang.org/x/text v0.3.5 // indirect
 	golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
